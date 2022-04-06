@@ -11,25 +11,27 @@
 </head>
 
 <body>
-
     <div class="header">
-
-        <div class="header-left">
-            <img src="./images/test-logga.svg" alt="" class="logo" />
-            <a href="#home">PRODUKTER</a>
-            <a href="#contact">OM OSS</a>
-            <a href="#about">BESTÄLLNING</a>
+        <div class="box-header">
+            <div class="logo">
+                <img src="./images/test-logga.svg" alt="" class="logo" />
+            </div>
+            <div class="header1">
+                <a href="#products">PRODUKTER</a>
+                <a href="#about">OM OSS</a>
+                <a href="#order">BESTÄLLNING</a>
+            </div>
+            <div class="header-right">
+                <small id="welcomeMsg" class="welcomeMsgStyle"></small>
+                <small id="name" class="nameStyle"></small>
+                <div class="btns">
+                    <button id="logInBtn" class="login-btn">LOGGA IN</button>
+                    <button id="logOutBtn" class="logout-btn">LOGGA UT</button>
+                </div>
+            </div>
         </div>
 
-
-        <div class="login-msg-holder">
-            <div id="welcomeMsg"></div>
-            <div id="result" style="text-transform:uppercase"></div>
-            <button id="logInBtn">LOGGA IN</button>
-            <button id="logOutBtn" style="display:none">LOGGA UT</button>
-        </div>
     </div>
-
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
@@ -39,28 +41,19 @@
             <img class="close" src="./images/close-symbol.svg" alt="">
 
             <div>
-                <div>
-                    <h3>Logga In</h3>
-                </div>
-                <div>
-                    <p>Använd ditt namn för att logga in</p>
-                    <div>
-                    </div>
-                    <form>
-                        <div>
-                            <input type="text" name="name" id="nameInput" placeholder="Namn" required>
-                        </div>
-                        <div>
-                            <button id="loginBtnModal">Logga In</button>
-                        </div>
-                    </form>
-                    <div>
-                        <small>Genom att logga in godkänner du <u>våra villkor</u></small>
-                    </div>
-                </div>
+                <h3>Logga In</h3>
+                <p>Använd ditt namn för att logga in</p>
+                <form>
+                    <input type="text" name="name" id="nameInput" placeholder="Namn">
+                    <button id="loginBtnModal">Logga In</button>
+                </form>
+
+                <small>Genom att logga in godkänner du <u>våra villkor</u></small>
+
             </div>
 
         </div>
+
     </div>
 </body>
 

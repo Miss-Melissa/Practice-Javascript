@@ -26,7 +26,7 @@ function logIn(e) {
         document.getElementById('welcomeMsg').innerHTML = "DU ÄR INLOGGAD SOM";
     }
 
-    const userValue = document.getElementById('result').innerHTML = document.getElementById('nameInput').value
+    const userValue = document.getElementById('name').innerHTML = document.getElementById('nameInput').value
 
 
 }
@@ -78,10 +78,9 @@ function LogIn(e) {
 // ----- LOGOUT -----
 function logOut() {
     document.getElementById('welcomeMsg').innerHTML = "";
-    document.getElementById('result').innerHTML = "";
+    document.getElementById('name').innerHTML = "";
     logInBtn.style.display = "block";
     logOutBtn.style.display = "none";
-
 }
 
 document.getElementById("logOutBtn").addEventListener('click', logOut);
