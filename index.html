@@ -8,9 +8,12 @@
     <title>Document</title>
     <script src="./main.js" defer></script>
     <link rel="stylesheet" href="./css/main.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 <body>
+
     <div class="header">
         <div class="box-header">
             <div class="logo">
@@ -32,6 +35,16 @@
         </div>
 
     </div>
+
+    <div class="main-side">
+        <small class="s-style">ETT NYTT SÄTT ATT UPPTÄCKA</small>
+
+        <h1 class="h1-style">Silkeslena produter med
+            <br>
+            glansiga detaljer
+        </h1>
+    </div>
+
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
@@ -40,19 +53,23 @@
 
             <img class="close" src="./images/close-symbol.svg" alt="">
 
-            <div>
-                <h3>Logga In</h3>
-                <p>Använd ditt namn för att logga in</p>
-                <form>
-                    <input type="text" name="name" id="nameInput" placeholder="Namn">
-                    <button id="loginBtnModal">Logga In</button>
+            <div class="info-position">
+
+                <h2>Logga In</h2>
+
+                <p class="p-style">Använd ditt namn för att logga in</p>
+
+                <form class="form-style">
+                    <input type="text" class="input-style" name="name" id="nameInput" placeholder="Namn" required>
+                    <button class="loginmodal-style" id="loginBtnModal">Logga In</button>
                 </form>
-
-                <small>Genom att logga in godkänner du <u>våra villkor</u></small>
-
+                <div>
+                    <small class="policy-style">Genom att logga in godkänner du <u>våra villkor</u></small>
+                </div>
             </div>
-
         </div>
+
+    </div>
 
     </div>
 </body>

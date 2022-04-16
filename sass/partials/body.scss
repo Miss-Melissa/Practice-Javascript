@@ -1,0 +1,28 @@
+.main-side {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 22px;
+
+  .s-style {
+    color: white;
+  }
+
+  .h1-style {
+    margin-top: 1%;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-side {
+    font-size: 20px;
+    margin-top: 13%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-side {
+    font-size: 18px;
+    margin-top: 11%;
+  }
+}
